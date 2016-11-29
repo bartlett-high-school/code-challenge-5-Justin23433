@@ -26,6 +26,21 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 	<head>
 		<title>Code Challenge #5</title>
 		<style>
+			@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('css/fonts/chunkfive-webfont.woff2') format('woff2'),
+         url('chunkfive-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+			}
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('css/fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    	}
+
 			body {
 				margin: 0;
 				padding: 0;
@@ -39,6 +54,44 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 			section {
 				padding: 25px 0;
 			}
+			h2 {
+				color: green;
+				font-size: 20px;
+				padding-bottom: 30px;
+				padding-top: 30px;
+				font-family: 'source_sans_proregular';
+			}
+			h3 {
+				color: orange;
+				font-size: 20px;
+				padding-bottom: 25px;
+				padding-top: 25px;
+				font-family: 'source_sans_proregular';
+			}
+			h4 {
+				color: pink;
+				font-size: 20px;
+				padding-bottom: 20px;
+				padding-top: 20px;
+				font-family: 'source_sans_proregular';
+			}
+			h5 {
+				color: purple;
+				font-size: 20px;
+				padding-bottom: 15px;
+				padding-top: 15px;
+				font-family: 'source_sans_proregular';
+			}
+			h6 {
+				color: yellow;
+				font-size: 20px;
+				padding: 0 auto;
+				font-family: 'source_sans_proregular';
+			}
+			p {
+				font-size: 15px;
+				font-family: 'chunkfiveroman';
+			}
 		</style>
 	</head>
 	<body>
@@ -47,6 +100,25 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 		</header>
 		<section>
 			<div class="container">
+				<h2>Green</h2>
+				
+				<p>The dog.</p>
+				
+				<h3>Orange</h3>
+				
+				<p>The cat.</p>
+				
+				<h4>Pink</h4>
+				
+				<p>The rat .</p>
+				
+				<h5>Purple</h5>
+				
+				<p>The bear.</p>
+				
+				<h6>Yellow</h6>
+				
+				<p>The yellow sun. </p>
 			</div>
 		</section>
 		<footer>
